@@ -73,3 +73,8 @@ ul li:first-child {
   background-color: #5e8199;
   color: white;
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
