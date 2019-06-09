@@ -10,6 +10,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(60px, 1fr));
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .search-brand,
@@ -38,6 +41,10 @@
   min-width: 60%;
   border: 1px solid #aaa;
   border-radius: 0.5em;
+}
+
+.outlet-wrapper {
+  overflow: scroll;
 }
 
 ul li {
