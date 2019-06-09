@@ -6,13 +6,10 @@
   font-family: "Varela Round", sans-serif;
 }
 
-body {
-}
-
 .search-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(80px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(60px, 1fr));
 }
 
 .search-brand,
@@ -40,7 +37,6 @@ body {
   color: #444;
   min-width: 60%;
   border: 1px solid #aaa;
-
   border-radius: 0.5em;
 }
 
